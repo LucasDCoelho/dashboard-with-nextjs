@@ -1,10 +1,10 @@
-import Image from 'next/image'
+import SideDashboard from '@/components/SideDashboard'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <main>
-      <Link href={"/posts"}>Post</Link>
+      <SideDashboard/>
     </main>
   )
 }
