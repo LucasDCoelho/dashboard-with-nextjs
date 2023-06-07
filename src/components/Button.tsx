@@ -1,15 +1,17 @@
+import DashboardPage from "@/app/Dashboard/page";
+import Link from "next/link";
+
 interface ButtonProps{
     name: string,
     style: string,
-    types?: "button" | "submit" | "reset" ;
-    click?: ()=>{},
+    referance: string
 }
 
 
-const Button = ({ name, style, types, click }: ButtonProps) => {
+const Button = ({ name, style, referance }: ButtonProps) => {
     return(
         <>
-            <button className={style} type={types} onClick={click}>{name}</button>
+            <Link href={referance} className={style}>{name}</Link>
         </>
     );
 }
