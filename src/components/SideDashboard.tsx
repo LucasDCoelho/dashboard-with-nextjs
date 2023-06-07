@@ -10,6 +10,12 @@ const SideDashboard = () =>{
                 </div>
                
                <div>
+                    <Link href={"/Dashboard/Settings"} className="text-sm">Post</Link>
+               </div>
+               <div>
+                    <Link href={"/Dashboard"} className="text-sm">Post</Link>
+               </div>
+               <div>
                     <Link href={"/Produtos"} className="text-sm">Post</Link>
                </div>
             </aside>
