@@ -1,7 +1,7 @@
-export default function DashboardPage(){
+export default function SettingsPage(){
     return (
         <>
-            <h1>Fodase</h1>
+            <h1>Settings</h1>
         </>
     )
 }

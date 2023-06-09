@@ -1,7 +1,7 @@
 export default function DashboardPage(){
     return (
         <>
-            <h1>Oiii</h1>
+            <h1>Visao geral</h1>
         </>
     )
 }

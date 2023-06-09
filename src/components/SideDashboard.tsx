@@ -10,13 +10,13 @@ const SideDashboard = () =>{
                 </div>
                
                <div>
-                    <Link href={"/Dashboard/Settings"} className="text-sm">Post</Link>
+                    <Link href={"/Dashboard"} className="text-sm">Visão Geral</Link>
                </div>
                <div>
-                    <Link href={"/Dashboard"} className="text-sm">Post</Link>
+                    <Link href={"/Dashboard/Produto"} className="text-sm">Produto</Link>
                </div>
                <div>
-                    <Link href={"/Produtos"} className="text-sm">Post</Link>
+                    <Link href={"/Dashboard/Settings"} className="text-sm">Configuração</Link>
                </div>
             </aside>
         </>
